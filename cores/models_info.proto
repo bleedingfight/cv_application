@@ -1,0 +1,7 @@
+syntax = "proto3";
+package Inference;
+message modelInfo{
+ string model_name = 1;
+ string model_config = 2;
+ string model_label = 3;
+}
